@@ -1,0 +1,19 @@
+<div>
+    <form #f="ngForm" (ngSubmit)="onSubmit(f)" class="container" novalidate>
+        <p class="heading">{{title}}</p>
+        <p *ngIf="err" class="logerror">{{err}}</p>
+        <input type="text" class="loginfield" placeholder="Name" name="name" [(ngModel)]="name" required>
+        <input type="date" class="loginfield" placeholder="Date" name="date" [(ngModel)]="date" required>
+        <input type="time" class="loginfield" placeholder="Time start" name="start" [(ngModel)]="start" required>
+        <input type="time" class="loginfield" placeholder="Time end" name="end" [(ngModel)]="end" required>
+        <div class="radiogroup">
+            <p>Recurring frequency:</p>
+            <input type="radio" class="radio" name="recurrence" value="0" [(ngModel)]="recurrence"> None <br>
+            <input type="radio" class="radio" name="recurrence" value="1" [(ngModel)]="recurrence"> Daily <br>
+            <input type="radio" class="radio" name="recurrence" value="2" [(ngModel)]="recurrence"> Weekly <br>
+            <input type="radio" class="radio" name="recurrence" value="3" [(ngModel)]="recurrence"> Monthly <br>
+        </div>
+        <button class="btn-login">{{title}}</button><br>
+        <a class="pass" [routerLink]="['/dashboard']">Cancel</a>
+    </form>
+</div>

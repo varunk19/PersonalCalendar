@@ -1,0 +1,87 @@
+div {
+    padding-top: 17vh;
+}
+.container {
+    background-color: #dbdbdb;
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 4vh;
+    padding-bottom: 5vh;
+}
+.heading {
+    margin-bottom: 3vh;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+}
+.loginfield {
+    min-width: 20vw;
+    font-size: 15px;
+    padding: 1.5vh 1vw;
+    background-color: #f3f3f3;
+    border: 0px;
+    margin-bottom: 2vh;
+    color: #7c7b17;
+}
+.loginfield:focus {
+    outline: 0px;
+}
+div .radiogroup {
+    padding: 1vh 2vw;
+    text-align: left;
+    margin-bottom: 2vh;
+    font-size: 14px;
+}
+.radiogroup p {
+    text-align: left;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.radio {
+    margin-bottom: 1vh;
+}
+.btn-login {
+    min-width: 20vw;
+    border: 0px;
+    background-color: #c0bd00;
+    color: white;
+    padding: 1.5vh 2vw;
+    font-size: 15px;
+    margin-bottom: 2vh;
+}
+.btn-login:hover {
+    background-color: #7c7b17;
+}
+.btn-login:focus {
+    outline: 0px;
+}
+.btn-login:disabled {
+    background-color: #7c7b17;
+}
+p {
+    text-align: center;
+    font-size: 14px;
+}
+.logerror {
+    font-size: 13px;
+    margin-bottom: 3vh;
+    margin-top: 0px;
+    color: red;
+    text-align: center;
+}
+.pass {
+    text-align: left;
+    margin-top: 1vh;
+    margin-bottom: 0px;
+}
+a{
+    font-size: 13px;
+    color: #888600;
+    text-decoration: none;
+}
+a:hover {
+    color: #464400;
+}

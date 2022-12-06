@@ -1,0 +1,11 @@
+<div>
+    <h1>Your Personal Calendar</h1>
+    <form class="container" #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+        <h3>Register to access your calendar</h3>
+        <p *ngIf="err" class="logerror">{{err}}</p>
+        <input type="text" placeholder="Username" name="username" class="loginfield" ngModel required><br>
+        <input type="password" placeholder="Password" name="password" class="loginfield" ngModel required><br>
+        <button [disabled]="disableBtn" class="btn-login">Register</button><br>
+        <a class="pass" [routerLink]="['/']">Existing user? Click here to login</a>
+    </form>
+</div>

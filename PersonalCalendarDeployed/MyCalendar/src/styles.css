@@ -1,0 +1,8 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background-image: url('./assets/estee-janssens-zni0zgb3bkQ-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
