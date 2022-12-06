@@ -26,8 +26,4 @@ Steps to run the application:
 
 Screenshots of the project are present in the "Screenshots" folder.
 
-Application is deployed on https://my-personal-calendar.herokuapp.com/
-
 When the application loads, please register yourself first to be able to use the application.
-
-PersonalCalendarDeployed folder contains deployed version of the code.
