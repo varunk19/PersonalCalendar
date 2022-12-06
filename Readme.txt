@@ -1,10 +1,3 @@
-List of implemented tasks:
-1. Backend REST API Spring boot service with addition, edit, retrieve and delete functionalities.
-2. Angular frontend for user interaction.
-3. Screenshots and deployment instruction in readme files.
-4. Automatic trigger date update logic for daily, weekly and monthly recurring events with deletion of older events.
-5. Deployment on Heroku platform.
-
 Required Softwares for easier setup:
 1. IntelliJ IDEA
 2. Visual Studio Code
